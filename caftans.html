@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="caf_title">القفاطين | دار القفطان أم أروى</title>
+<meta name="description" content="تصفحي مجموعة قفاطين دار القفطان أم أروى: قفاطين الأعراس، المناسبات، والتصاميم العصرية، للبيع والكراء بمدينة تاحناوت." data-i18n-attr="content:caf_meta_desc">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cormorant+Garamond:ital,wght@1,600&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ Header / Navbar ============ -->
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="logo"><span data-i18n="brand_prefix">دار القفطان</span> <span data-i18n="brand_name">أم أروى</span></a>
+
+    <nav class="nav-links">
+      <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+      <a href="caftans.html" class="active" data-i18n="nav_caftans">القفاطين</a>
+      <a href="services.html" data-i18n="nav_services">خدماتنا</a>
+      <a href="about.html" data-i18n="nav_about">من نحن</a>
+      <a href="contact.html" data-i18n="nav_contact">تواصل معنا</a>
+    </nav>
+
+    <div class="nav-cta">
+      <div class="lang-switch" role="group" data-i18n-attr="aria-label:lang_switch_aria">
+        <button type="button" class="lang-btn active" data-lang="ar">AR</button>
+        <button type="button" class="lang-btn" data-lang="fr">FR</button>
+      </div>
+      <a class="btn btn-whatsapp" href="https://wa.me/212703402808" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0v-1a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></svg>
+        <span data-i18n="whatsapp_short">تواصل عبر واتساب</span>
+      </a>
+    </div>
+
+    <button class="hamburger" aria-label="فتح القائمة" data-i18n-attr="aria-label:hamburger_aria">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-panel">
+    <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+    <a href="caftans.html" data-i18n="nav_caftans">القفاطين</a>
+    <a href="services.html" data-i18n="nav_services">خدماتنا</a>
+    <a href="about.html" data-i18n="nav_about">من نحن</a>
+    <a href="contact.html" data-i18n="nav_contact">تواصل معنا</a>
+    <a href="https://wa.me/212703402808" target="_blank" rel="noopener" style="color:var(--gold-deep); font-weight:700;" data-i18n="whatsapp_short">تواصل عبر واتساب</a>
+    <div class="lang-switch" role="group" data-i18n-attr="aria-label:lang_switch_aria">
+      <button type="button" class="lang-btn active" data-lang="ar">AR</button>
+      <button type="button" class="lang-btn" data-lang="fr">FR</button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ Page header ============ -->
+<section class="page-header">
+  <div class="container">
+    <span class="eyebrow-gold" data-i18n="caf_header_eyebrow">مجموعتنا</span>
+    <h1 data-i18n="caf_header_h1">القفاطين</h1>
+    <p data-i18n="caf_header_p">تصفحي تشكيلتنا من القفاطين المغربية، وصفّي حسب الفئة التي تناسب مناسبتك.</p>
+  </div>
+</section>
+
+<!-- ============ Filter bar ============ -->
+<div class="container">
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all" data-i18n="filter_all">الكل</button>
+    <button class="filter-btn" data-filter="occasions" data-i18n="filter_occasions">قفاطين المناسبات</button>
+    <button class="filter-btn" data-filter="modern" data-i18n="filter_modern">تصاميم عصرية</button>
+    <button class="filter-btn" data-filter="sale" data-i18n="filter_sale">للبيع</button>
+    <button class="filter-btn" data-filter="rent" data-i18n="filter_rent">للكراء</button>
+  </div>
+</div>
+
+<!-- ============ Gallery ============ -->
+<div class="container">
+  <div class="gallery-grid">
+
+    <div class="caftan-card" data-category="wedding sale">
+      <div class="img-wrap">
+        <img src="https://images.unsplash.com/photo-1753192108606-b4a2bc9e5661?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="قفطان مغربي أزرق للأعراس" data-i18n-attr="alt:caf1_alt">
+      </div>
+      <div class="card-body">
+        <span class="tag" data-i18n="caf1_tag">للبيع</span>
+        <h3 data-i18n="caf1_title">قفطان "لالة زهرة" الأزرق</h3>
+        <p data-i18n="caf1_desc">قفطان أعراس بتطريز يدوي دقيق وقماش حريري فاخر.</p>
+        <span class="price" data-i18n="caf1_price">2,400 درهم</span>
+        <button class="card-link" data-open-modal data-key="caf1"
+          data-img="https://images.unsplash.com/photo-1753192108606-b4a2bc9e5661?fm=jpg&q=85&w=1200&auto=format&fit=crop">
+          <span data-i18n="view_details">عرض التفاصيل</span>
+        </button>
+      </div>
+    </div>
+    
+    
+    <div class="caftan-card" data-category="modern rent">
+      <div class="img-wrap">
+        <img src="https://images.unsplash.com/photo-1753192105151-afa3e56d8b12?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="قفطان مغربي أخضر عصري" data-i18n-attr="alt:caf2_alt">
+      </div>
+      <div class="card-body">
+        <span class="tag" data-i18n="caf2_tag">للكراء</span>
+        <h3 data-i18n="caf2_title">قفطان "ياسمين" الأخضر</h3>
+        <p data-i18n="caf2_desc">تصميم عصري بخطوط بسيطة وألوان هادئة.</p>
+        <span class="price" data-i18n="caf2_price">350 درهم / اليوم</span>
+        <button class="card-link" data-open-modal data-key="caf2"
+          data-img="https://images.unsplash.com/photo-1753192105151-afa3e56d8b12?fm=jpg&q=85&w=1200&auto=format&fit=crop">
+          <span data-i18n="view_details">عرض التفاصيل</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="caftan-card" data-category="occasions sale">
+      <div class="img-wrap">
+        <img src="https://images.unsplash.com/photo-1629200468328-87bf3adfb78b?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="قفطان مغربي أبيض بالدانتيل" data-i18n-attr="alt:caf3_alt">
+      </div>
+      <div class="card-body">
+        <span class="tag" data-i18n="caf3_tag">للبيع</span>
+        <h3 data-i18n="caf3_title">قفطان "أمل" الأبيض</h3>
+        <p data-i18n="caf3_desc">لمسة من الدانتيل الفاخر مع تطريز ذهبي ناعم.</p>
+        <span class="price" data-i18n="caf3_price">1,800 درهم</span>
+        <button class="card-link" data-open-modal data-key="caf3"
+          data-img="https://images.unsplash.com/photo-1629200468328-87bf3adfb78b?fm=jpg&q=85&w=1200&auto=format&fit=crop">
+          <span data-i18n="view_details">عرض التفاصيل</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="caftan-card" data-category="occasions sale">
+      <div class="img-wrap">
+        <img src="https://images.unsplash.com/photo-1629200468327-78bdb7e47c85?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="قفطان مغربي كلاسيكي أبيض" data-i18n-attr="alt:caf4_alt">
+      </div>
+      <div class="card-body">
+        <span class="tag" data-i18n="caf4_tag">للبيع</span>
+        <h3 data-i18n="caf4_title">قفطان "نور" الكلاسيكي</h3>
+        <p data-i18n="caf4_desc">قصّة كلاسيكية أنيقة تناسب المناسبات العائلية.</p>
+        <span class="price" data-i18n="caf4_price">1,600 درهم</span>
+        <button class="card-link" data-open-modal data-key="caf4"
+          data-img="https://images.unsplash.com/photo-1629200468327-78bdb7e47c85?fm=jpg&q=85&w=1200&auto=format&fit=crop">
+          <span data-i18n="view_details">عرض التفاصيل</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="caftan-card" data-category="modern rent">
+      <div class="img-wrap">
+        <img src="https://images.unsplash.com/photo-1753192104240-209f3fb568ef?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="قفطان مغربي خفيف صيفي" data-i18n-attr="alt:caf5_alt">
+      </div>
+      <div class="card-body">
+        <span class="tag" data-i18n="caf5_tag">للكراء</span>
+        <h3 data-i18n="caf5_title">قفطان "سلمى" الصيفي</h3>
+        <p data-i18n="caf5_desc">قماش خفيف وتصميم مريح للسهرات الصيفية.</p>
+        <span class="price" data-i18n="caf5_price">280 درهم / اليوم</span>
+        <button class="card-link" data-open-modal data-key="caf5"
+          data-img="https://images.unsplash.com/photo-1753192104240-209f3fb568ef?fm=jpg&q=85&w=1200&auto=format&fit=crop">
+          <span data-i18n="view_details">عرض التفاصيل</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="caftan-card" data-category="wedding sale">
+      <div class="img-wrap">
+        <img src="https://images.unsplash.com/photo-1629200468267-b926a7675ce2?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="قفطان مغربي فاخر بتطريز ذهبي" data-i18n-attr="alt:caf6_alt">
+      </div>
+      <div class="card-body">
+        <span class="tag" data-i18n="caf6_tag">للبيع</span>
+        <h3 data-i18n="caf6_title">قفطان "مريم" الذهبي</h3>
+        <p data-i18n="caf6_desc">تطريز ذهبي غني على قماش كريمي فاخر.</p>
+        <span class="price" data-i18n="caf6_price">3,200 درهم</span>
+        <button class="card-link" data-open-modal data-key="caf6"
+          data-img="https://images.unsplash.com/photo-1629200468267-b926a7675ce2?fm=jpg&q=85&w=1200&auto=format&fit=crop">
+          <span data-i18n="view_details">عرض التفاصيل</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="caftan-card" data-category="occasions sale">
+      <div class="img-wrap">
+        <img src="https://images.unsplash.com/photo-1753192108753-81be0db2f7fe?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="قفطان مغربي متدفق فاخر" data-i18n-attr="alt:caf7_alt">
+      </div>
+      <div class="card-body">
+        <span class="tag" data-i18n="caf7_tag">للبيع</span>
+        <h3 data-i18n="caf7_title">قفطان "حياة" المتدفق</h3>
+        <p data-i18n="caf7_desc">تصميم متدفق بقماش ناعم وألوان دافئة.</p>
+        <span class="price" data-i18n="caf7_price">2,100 درهم</span>
+        <button class="card-link" data-open-modal data-key="caf7"
+          data-img="https://images.unsplash.com/photo-1753192108753-81be0db2f7fe?fm=jpg&q=85&w=1200&auto=format&fit=crop">
+          <span data-i18n="view_details">عرض التفاصيل</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="caftan-card" data-category="modern sale">
+      <div class="img-wrap">
+        <img src="https://images.unsplash.com/photo-1753192105348-3b263840b73b?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="قفطان مغربي أبيض عصري" data-i18n-attr="alt:caf8_alt">
+      </div>
+      <div class="card-body">
+        <span class="tag" data-i18n="caf8_tag">للبيع</span>
+        <h3 data-i18n="caf8_title">قفطان "إيمان" الأبيض</h3>
+        <p data-i18n="caf8_desc">لمسة عصرية بسيطة بقماش أبيض ناصع.</p>
+        <span class="price" data-i18n="caf8_price">1,450 درهم</span>
+        <button class="card-link" data-open-modal data-key="caf8"
+          data-img="https://images.unsplash.com/photo-1753192105348-3b263840b73b?fm=jpg&q=85&w=1200&auto=format&fit=crop">
+          <span data-i18n="view_details">عرض التفاصيل</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="caftan-card" data-category="wedding occasions sale">
+      <div class="img-wrap">
+        <img src="https://images.unsplash.com/photo-1753192108400-7e73fb581d69?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="قفطان مغربي أبيض للمناسبات" data-i18n-attr="alt:caf9_alt">
+      </div>
+      <div class="card-body">
+        <span class="tag" data-i18n="caf9_tag">للبيع</span>
+        <h3 data-i18n="caf9_title">قفطان "رانيا" الفاخر</h3>
+        <p data-i18n="caf9_desc">تصميم فاخر بتفاصيل دقيقة يناسب الحفلات الكبرى.</p>
+        <span class="price" data-i18n="caf9_price">2,750 درهم</span>
+        <button class="card-link" data-open-modal data-key="caf9"
+          data-img="https://images.unsplash.com/photo-1753192108400-7e73fb581d69?fm=jpg&q=85&w=1200&auto=format&fit=crop">
+          <span data-i18n="view_details">عرض التفاصيل</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============ Modal ============ -->
+<div class="modal-overlay" id="caftan-modal">
+  <div class="modal-box">
+    <button class="modal-close" aria-label="إغلاق" data-i18n-attr="aria-label:modal_close_aria">✕</button>
+    <img class="modal-img" src="" alt="">
+    <div class="modal-info">
+      <div class="modal-price-row">
+        <span class="tag modal-tag"></span>
+        <span class="price modal-price"></span>
+      </div>
+      <h3 class="modal-title"></h3>
+      <p class="modal-desc"></p>
+      <a class="btn btn-whatsapp" href="https://wa.me/212703402808" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0v-1a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></svg>
+        <span data-i18n="modal_whatsapp">استفسار عبر واتساب</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ Footer ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo" data-i18n="brand_full">دار القفطان أم أروى</div>
+        <p data-i18n="footer_tagline">قفاطين مغربية فاخرة، بين الأصالة والأناقة، للبيع والكراء.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 8h-2a2 2 0 0 0-2 2v10M9 12h4"/><path d="M15 3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h9a3 3 0 0 0 3-3V9l-3-6z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_quicklinks">روابط سريعة</h4>
+        <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+        <a href="caftans.html" data-i18n="nav_caftans">القفاطين</a>
+        <a href="services.html" data-i18n="nav_services">خدماتنا</a>
+        <a href="about.html" data-i18n="nav_about">من نحن</a>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_contact_title">تواصل معنا</h4>
+        <a href="tel:0703402808">0703402808</a>
+        <a href="https://wa.me/212703402808" target="_blank" rel="noopener" data-i18n="footer_whatsapp_label">واتساب</a>
+        <a href="contact.html" data-i18n="footer_contact_form">نموذج التواصل</a>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_hours_title">أوقات العمل</h4>
+        <p data-i18n="footer_hours_weekdays">الاثنين - السبت: 9:00 - 19:00</p>
+        <p data-i18n="footer_hours_sunday">الأحد: مغلق</p>
+      </div>
+    </div>
+    <div class="footer-bottom" data-i18n="footer_copyright">© 2026 دار القفطان أم أروى - جميع الحقوق محفوظة</div>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
